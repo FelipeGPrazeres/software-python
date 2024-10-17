@@ -74,7 +74,7 @@ def main():
             #sendo necessario ser um número inteiro
             try:
                 numeroAdd = int(input("Qual o número a ser adicionado? "))
-                adicionarLista(numeroAdd)
+                adicionarLista(listaNumeros, numeroAdd)
                 print(listaNumeros)
 
             #excessão caso o que for digitado não seja um número inteiro
@@ -91,7 +91,7 @@ def main():
             #sendo necessário ser um número inteiro
             try:
                 numeroRemove = int(input("Qual o número a ser removido? "))
-                removerLista(numeroRemove)
+                removerLista(listaNumeros, numeroRemove)
                 print(listaNumeros)
 
             #excessão caso o número digitado não estiver na lista, 
